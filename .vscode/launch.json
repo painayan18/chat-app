@@ -1,0 +1,71 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch HelloWorld",
+            "request": "launch",
+            "mainClass": "test.HelloWorld",
+            "projectName": "Code Projects_7ac18957"
+        },
+        {
+            "type": "java",
+            "name": "Launch test",
+            "request": "launch",
+            "mainClass": "test.test",
+            "projectName": "Code Projects_7ac18957"
+        },
+        {
+            "type": "java",
+            "name": "Launch hello",
+            "request": "launch",
+            "mainClass": "hello",
+            "projectName": "Code Projects_7ac18957"
+        },
+        {
+            "type": "java",
+            "name": "Launch Quickstart",
+            "request": "launch",
+            "mainClass": "Quickstart",
+            "projectName": "Code Projects_7ac18957"
+        },
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "g++.exe - Build and debug active file",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "\\usr\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "g++.exe build active file"
+        }
+    ]
+}
