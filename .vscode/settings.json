@@ -53,5 +53,4 @@
     },
     "cmake.configureOnOpen": false,
     "cmake.sourceDirectory": "${workspaceFolder}/C++ Projects/VoteCalculator",
-    
 }
